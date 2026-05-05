@@ -106,8 +106,7 @@ export default function SignInPage() {
                   placeholder="Enter email or username"
                   placeholderTextColor="#666666"
                   onChangeText={setIdentifier}
-                  keyboardType="default"
-                />
+                  keyboardType="default"/>
                 {errors.fields.identifier && (
                   <Text className="auth-error">
                     {errors.fields.identifier.message}
@@ -122,8 +121,7 @@ export default function SignInPage() {
                   placeholder="Enter password"
                   placeholderTextColor="#666666"
                   secureTextEntry
-                  onChangeText={setPassword}
-                />
+                  onChangeText={setPassword}/>
                 {errors.fields.password && (
                   <Text className="auth-error">
                     {errors.fields.password.message}
